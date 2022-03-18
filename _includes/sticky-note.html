@@ -1,0 +1,26 @@
+<section class="section sticky-note-section">
+
+    <h2 class="section-title">
+      <span class="fa-stack fa-xs">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fas fa-sticky-note fa-stack-1x fa-inverse"></i>
+      </span>
+      公开便签
+    </h2>
+  
+    <div class="intro">
+      <p>这是个公开的便签区，但写下的内容很可能会消失或被编辑。</p>
+    </div>
+  
+    <script>
+        var sticky_note_html = '<iframe name="embed_readwrite" src="https://etherpad.lwd-temp.top/p/public?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false" width="100%" height="600" frameborder="0"></iframe>';
+        function sticky_note_show() {
+            document.getElementById("sticky-note-div").innerHTML = sticky_note_html;
+        }
+    </script>
+    <div id="sticky-note-div" class="item">
+        <a onclick="sticky_note_show()" src="javascript:void(0)">显示便签</a>
+    </div>
+  
+  </section>
+  

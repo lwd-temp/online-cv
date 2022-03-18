@@ -3,191 +3,217 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: "[数据删除] ███"
+    tagline: "计算机科学爱好者"
+    avatar:  # img标签已注释 # 失效，在includes里某个地方改掉了 #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
+    email: i@lwd-temp.top
+    phone: ███████████
     citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
+    website: www.lwd-temp.top #do not add http://
+    linkedin: 
+    xing: 
+    github: lwd-temp
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter: 
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    pdf: True
 
     languages:
-      - idiom: English
-        level: Native
+      - idiom: 中文（普通话）
+        level: 本土使用者
 
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
-        level: Professional
+      - idiom: 英语
+        level: 初学者
 
     interests:
-      - item: Climbing
+      - item: 代码
         link:
 
-      - item: Snowboarding
+      - item: 探索
         link:
 
-      - item: Cooking
+      - item: 搞事情
+        link:
+
+      - item: 屑（？）
         link:
 
 career-profile:
-    title: Career Profile
+    title: 简介
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      专业和 CS 完全不搭边的计算机科学爱好者，有时间会来 GitHub 看看。<br>
+      主 Python，也喜欢前端 HTML &amp; CSS &amp; JavaScript（虽然都不太会用）。<br>
+      喜欢艺术，看到优秀的文案也会心动一下。<br>
+      就是什么都做不到（笑）。
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: "[数据删除]"
+      university: "圣克里斯汀娜书院(St. Christina College)"
+      time: 20██ - 20██
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
+        "[数据删除]"
+    - degree: 荣誉毕业生
+      university: "霍格沃茨魔法学校(Hogwarts School of Witchcraft and Wizardry)"
+      time: 20██ - 20██
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        "[数据删除]"
+    - degree: "[数据删除]"
+      university: "密斯卡托尼克大学(Miskatonic University)"
+      time: 20██ - 20██
+      details: |
+        "[数据删除]"
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: 人类
+      time: 20██ - 至今
+      company: 世界
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        没什么可说的。
 projects:
-    title: Projects
+    title: 项目 &amp; 贡献
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      这里展示了我的一些无聊的项目以及我对其他项目的主要贡献。
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: 赞助我
+        link: "https://donate.lwd-temp.top/"
+        tagline: "欢迎赞助"
+      #- title: 赞助我BTC
+      #  link: "https://www.blockchain.com/btc/address/bc1qst9z7zzvd5y4ayawpgux462u0z4e4dvq5qtvk0"
+      #  tagline: "欢迎赞助"
+      - title: about-lwd-temp
+        link: "https://github.com/lwd-temp/about-lwd-temp"
+        tagline: "关于这个账号和Repos你所需要了解的一切[科幻向][乱写的]"
+      - title: 博客
+        link: "https://jekyll.lwd-temp.top"
+        tagline: "基于Jekyll的个人博客"
+      - title: 导航页
+        link: "https://navi.lwd-temp.top"
+        tagline: "基于BYR-Navi的自用导航页"
+      - title: 'AutoRing.py'
+        link: "https://github.com/lwd-temp/AutoRing.py"
+        tagline: "自动化上下课放学铃播放和自动关机解决方案"
+      - title: 'in-memory-of-███'
+        link: 
+        tagline: "欲买桂花同载酒，只可惜故人，何日再见呢..."
+      - title: maybe_not_the_last_letter
+        link: "https://github.com/lwd-temp/maybe_not_the_last_letter"
+        tagline: "《也许不是最后一封信》基于Ren'Py的互动小说游戏"
+      - title: maybe_not_the_last_letter_web
+        link: "https://gh.lwd-temp.top/maybe_not_the_last_letter_web/index.html"
+        tagline: "《也许不是最后一封信》基于Ren'Py的互动小说游戏 Web版"
+      - title: SetRoBootHwcToCN
+        link: "https://github.com/lwd-temp/SetRoBootHwcToCN"
+        tagline: "初学者的第一个Magisk模块：在system.prop中将ro.boot.hwc设为CN，也许可以解决一些奇怪的问题呢..."
+      - title: deploy-code-server
+        link: "https://github.com/lwd-temp/deploy-code-server"
+        tagline: "deploy-code-server仓库的Fork版，修改配置文件倾向Python练习开发，可直接部署"
+      - title: online-cv
+        link: "https://github.com/lwd-temp/online-cv"
+        tagline: "online-cv的Fork版，你面前的这个页面的生成配置"
+      - title: DesktopMirror
+        link: "https://github.com/lwd-temp/DesktopMirror"
+        tagline: "自动复制当前用户桌面全部文件，功能实现全部基于Windows特性，虽然貌似只在Windows 11测试机上正常运行..."
+      - title: Fake-flash.cn
+        link: "https://github.com/lwd-temp/Fake-flash.cn"
+        tagline: "Fork flash.cn钓鱼页（中文+英文），修复使其勉强能用"
+      - title: IzaiahSun-Community.PowerToys.Run.Plugin.Everything
+        link: "https://github.com/lwd-temp/IzaiahSun-Community.PowerToys.Run.Plugin.Everything"
+        tagline: "Fork IzaiahSun的PowerToys搜索功能Everything集成插件的二进制文件分离，可直接放入PowerToys插件目录下使用，目前未获转载授权"
+      - title: work
+        link: "https://github.com/lwd-temp/work"
+        tagline: "报告、论文、学术项目代码，杂项会丢到这里"
+      #- title: projectz-studio
+      #  tagline: "ProjectZ Studio站点源码"
+      #- title: xxx
+      #  link: "https://github.com/lwd-temp/xxx"
+      #  tagline: "从用户Alvin9999提供项目中提取的开源代理工具配置文件"
+      - title: github-unicorn
+        link: "https://github.com/lwd-temp/github-unicorn"
+        tagline: "GitHub独角兽错误页样本"
+      - title: awesome-anti-addiction
+        link: "https://github.com/lwd-temp/awesome-anti-addiction"
+        tagline: "网游防沉迷方案汇总 一个awesome系列"
+      - title: awesome-anti-anti-addiction
+        link: "https://github.com/lwd-temp/awesome-anti-anti-addiction"
+        tagline: "反防沉迷解决方案汇总 一个awesome系列 是上面那个的反义库"
+      - title: chemistry-pig-story
+        link: "https://github.com/lwd-temp/chemistry-pig-story"
+        tagline: "元素周期表小猪与狼的故事"
+      - title: afdian-sponsor-page-vercel
+        link: "https://github.com/lwd-temp/afdian-sponsor-page-vercel"
+        tagline: "afdian-sponsor-page的Fork版，修改使其适配Vercel部署"
+      - title: steam-store-checker
+        link: "https://github.com/lwd-temp/steam-store-checker"
+        tagline: "Steam 商店 store.steampowered.com 疑似 443 端口被干扰验证"
+      - title: Easy-to-use-Steam-Store-Checker
+        link: "https://github.com/lwd-temp/Easy-to-use-Steam-Store-Checker"
+        tagline: "易于使用的Steam商店443端口干扰验证工具"
+      - title: kizuna-ai-calendar-api
+        link: "https://github.com/lwd-temp/kizuna-ai-calendar-api"
+        tagline: "绊爱日历项目后端Serverless API+OSS部署方案"
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 publications:
-    title: Publications
+    title: 文献发表
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      怎么可能？
+#    papers:
+#      - title: 无
+#        link: "#"
+#        authors: 无
+#        conference: 无
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
-    title: Skills &amp; Proficiency
+    title: 技能 &amp; 专业（距离入门的距离，而不是精通）
 
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: Python
+        level: 20%
 
-      - name: Javascript & jQuery
-        level: 98%
+      - name: JavaScript
+        level: 5%
 
-      - name: Angular
-        level: 98%
+      - name: HTML &amp; CSS
+        level: 5%
 
-      - name: HTML5 & CSS
-        level: 95%
+      - name: Markdown
+        level: 40%
 
-      - name: Ruby on Rails
-        level: 85%
+      - name: Photoshop
+        level: 10%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: Shell &amp; Batch
+        level: 5%
+
+      - name: GNU/Linux
+        level: 10%
+
+      - name: C/C++
+        level: 2%
+
+      - name: 自然语言
+        level: 50%
+
+      - name: 电子文档/表格/演示
+        level: 30%
+        
+      - name: Vocaloid
+        level: 5%
+
+      - name: MMD
+        level: 5%
+
+      - name: 视觉小说/Galgame制作
+        level: 10%
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a><br><small class="copyright">© lwd-temp.top</small><br><a href="https://icp.gov.moe/?keyword=20211505" target="_blank">萌ICP备20211505号</a>

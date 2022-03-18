@@ -27,4 +27,19 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+<script data-cfasync="false">
+;(function () {
+    var src = '//cdn.jsdelivr.net/npm/eruda';
+    if (!/eruda=true/.test(window.location) && localStorage.getItem('active-eruda') != 'true') return;
+    document.write('<scr' + 'ipt src="' + src + '"></scr' + 'ipt>');
+    document.write('<scr' + 'ipt>eruda.init();</scr' + 'ipt>');
+})();
+;(function () {
+    var src = '//unpkg.com/vconsole@latest/dist/vconsole.min.js';
+    if (!/vconsole=true/.test(window.location) && localStorage.getItem('active-vconsole') != 'true') return;
+    document.write('<scr' + 'ipt src="' + src + '"></scr' + 'ipt>');
+    document.write('<scr' + 'ipt>var vConsole = new window.VConsole();</scr' + 'ipt>');
+})();
+</script>
 </head>

@@ -5,6 +5,94 @@
 <!-- custom js -->
 <script type="text/javascript" src="{{site.baseurl}}/assets/js/main.js"></script>
 
+<script type="text/javascript" id="cookiebanner"
+  src="https://cdn.jsdelivr.net/gh/dobarkod/cookie-banner@1.2.2/dist/cookiebanner.min.js"></script>
+
+<!--利用meting-js调用APlayer音乐播放器-->
+<!-- require APlayer -->
+<!--
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+<script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+-->
+<!-- require MetingJS -->
+<!--
+<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+-->
+
+<!--
+<meting-js
+	server="netease"
+	type="song"
+	id="1395826900"
+	fixed="true">
+</meting-js>
+-->
+<!--利用meting-js调用APlayer音乐播放器 Ends here-->
+
+{% if sidebar.pdf %}
+    <script>
+        var onPDFProcess = false;
+        var jsPDFLoaded = false;
+
+        function printPDF() {
+            console.log("printPDF");
+            var element = document.body;
+            var opt = {
+                margin: 0,
+                filename: document.title + '.pdf',
+                image: { type: 'jpeg', quality: 1 },
+                html2canvas: { scale: 5 },
+                jsPDF: { format: 'a4', orientation: 'portrait' }
+            };
+            console.log("Call html2pdf");
+            html2pdf().set(opt).from(element).save().then(function (pdf) {
+                console.log("PDF generated");
+                console.log("Set onPDFProcess to false");
+                onPDFProcess = false;
+            });
+            console.log("Call html2pdf end");
+        }
+
+        var downPdf = document.getElementById("renderPdf");
+
+        downPdf.onclick = function () {
+            if (onPDFProcess) {
+                console.log("PDF is processing, ignore");
+                return;
+            }
+            else {
+                onPDFProcess = true;
+                console.log("Set onPDFProcess to true");
+                if (jsPDFLoaded) {
+                    console.log("jsPDF loaded, print PDF");
+                    printPDF();
+                }
+                else {
+                    try {
+                        console.log("jsPDF not loaded, load jsPDF");
+                        $.getScript("{{site.baseurl}}/assets/js/min/html2pdf.bundle.min.js", function () {
+                            jsPDFLoaded = true;
+                            console.log("Set jsPDFLoaded to true");
+                            printPDF();
+                        }).fail(function () {
+                            console.log("Load jsPDF failed");
+                            onPDFProcess = false;
+                            console.log("Set onPDFProcess to false");
+                        });
+                    } catch (error) {
+                        console.log("Something failed");
+                        console.log(error);
+                        onPDFProcess = false;
+                        console.log("Set onPDFProcess to false");
+                    }
+                }
+            };
+        }
+    </script>
+{% endif %}
+
+<script src="https://api.lwd-temp.top/static/staticapi.js"></script>
+
 {% if site.analytics %}
   {% include analytics.html %}
 {% endif %}
