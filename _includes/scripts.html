@@ -41,7 +41,7 @@
                 margin: 0,
                 filename: document.title + '.pdf',
                 image: { type: 'jpeg', quality: 1 },
-                html2canvas: { scale: 5 },
+                html2canvas: { scale: 5, useCORS: true },
                 jsPDF: { format: 'a4', orientation: 'portrait' }
             };
             console.log("Call html2pdf");
