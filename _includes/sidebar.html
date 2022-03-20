@@ -3,11 +3,9 @@
 
   <div class="profile-container">
 
-    <!--
     {% if sidebar.name %}
-    <img class="avatar" src="https://thispersondoesnotexist.lwd-temp.workers.dev/" alt="profile picture" />
+    <img class="avatar" src="{{ sidebar.avatar }}" alt="profile picture" />
     {% endif %}
-    -->
 
     {% if sidebar.name %}
     <h1 class="name">{{ sidebar.name }}</h1>
