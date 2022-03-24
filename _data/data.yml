@@ -158,7 +158,10 @@ projects:
         tagline: "易于使用的Steam商店443端口干扰验证工具"
       - title: kizuna-ai-calendar-api
         link: "https://github.com/lwd-temp/kizuna-ai-calendar-api"
-        tagline: "绊爱日历项目后端Serverless API+OSS部署方案"
+        tagline: "Fork，绊爱日历项目后端Serverless API+OSS部署方案"
+      - title: KizunaAI-Web
+        link: "https://github.com/lwd-temp/KizunaAI-Web"
+        tagline: "Fork，基于uni-app的绊爱主题日历，兼容H5"
 
 
 publications:
