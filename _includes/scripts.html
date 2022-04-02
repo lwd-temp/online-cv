@@ -10,29 +10,36 @@
 
 <!--利用meting-js调用APlayer音乐播放器-->
 <!-- require APlayer -->
-<!--
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
 <script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
--->
 <!-- require MetingJS -->
-<!--
 <script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
--->
-
-<!--
 <meting-js
 	server="netease"
 	type="song"
-	id="1395826900"
+	id="27741732"
 	fixed="true">
 </meting-js>
--->
 <!--利用meting-js调用APlayer音乐播放器 Ends here-->
 
 {% if sidebar.pdf %}
     <script>
         var onPDFProcess = false;
         var jsPDFLoaded = false;
+
+        function hideElements() {
+            $(".pdf").hide();
+            console.log("Hide .pdf with jQuery.");
+            $(".aplayer").hide();
+            console.log("Hide .aplayer with jQuery.");
+        }
+
+        function showElements() {
+            $(".pdf").show();
+            console.log("Show .pdf with jQuery.");
+            $(".aplayer").show();
+            console.log("Show .aplayer with jQuery.");
+        }
 
         function printPDF() {
             console.log("printPDF");
@@ -49,6 +56,7 @@
                 console.log("PDF generated");
                 console.log("Set onPDFProcess to false");
                 onPDFProcess = false;
+                showElements();
             });
             console.log("Call html2pdf end");
         }
@@ -63,6 +71,7 @@
             else {
                 onPDFProcess = true;
                 console.log("Set onPDFProcess to true");
+                hideElements();
                 if (jsPDFLoaded) {
                     console.log("jsPDF loaded, print PDF");
                     printPDF();
@@ -78,12 +87,14 @@
                             console.log("Load jsPDF failed");
                             onPDFProcess = false;
                             console.log("Set onPDFProcess to false");
+                            showElements();
                         });
                     } catch (error) {
                         console.log("Something failed");
                         console.log(error);
                         onPDFProcess = false;
                         console.log("Set onPDFProcess to false");
+                        showElements();
                     }
                 }
             };
