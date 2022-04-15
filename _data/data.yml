@@ -82,21 +82,15 @@ projects:
     intro: >
       这里展示了我的一些无聊的项目以及我对其他项目的主要贡献。
     assignments:
-      - title: 赞助我
-        link: "https://donate.lwd-temp.top/"
-        tagline: "欢迎赞助"
-      #- title: 赞助我BTC
-      #  link: "https://www.blockchain.com/btc/address/bc1qst9z7zzvd5y4ayawpgux462u0z4e4dvq5qtvk0"
-      #  tagline: "欢迎赞助"
-      - title: about-lwd-temp
-        link: "https://github.com/lwd-temp/about-lwd-temp"
-        tagline: "关于这个账号和Repos你所需要了解的一切[科幻向][乱写的]"
       - title: 博客
         link: "https://jekyll.lwd-temp.top"
         tagline: "基于Jekyll的个人博客"
       - title: 导航页
         link: "https://navi.lwd-temp.top"
         tagline: "基于BYR-Navi的自用导航页"
+      - title: about-lwd-temp
+        link: "https://github.com/lwd-temp/about-lwd-temp"
+        tagline: "关于这个账号和Repos你所需要了解的一切[科幻向][乱写的]"
       - title: 'AutoRing.py'
         link: "https://github.com/lwd-temp/AutoRing.py"
         tagline: "自动化上下课放学铃播放和自动关机解决方案"
@@ -117,7 +111,7 @@ projects:
         tagline: "deploy-code-server仓库的Fork版，修改配置文件倾向Python练习开发，可直接部署"
       - title: online-cv
         link: "https://github.com/lwd-temp/online-cv"
-        tagline: "online-cv的Fork版，你面前的这个页面的生成配置"
+        tagline: "online-cv的Fork版，您面前的这个页面的生成配置"
       - title: DesktopMirror
         link: "https://github.com/lwd-temp/DesktopMirror"
         tagline: "自动复制当前用户桌面全部文件，功能实现全部基于Windows特性，虽然貌似只在Windows 11测试机上正常运行..."
@@ -130,11 +124,6 @@ projects:
       - title: work
         link: "https://github.com/lwd-temp/work"
         tagline: "报告、论文、学术项目代码，杂项会丢到这里"
-      #- title: projectz-studio
-      #  tagline: "ProjectZ Studio站点源码"
-      #- title: xxx
-      #  link: "https://github.com/lwd-temp/xxx"
-      #  tagline: "从用户Alvin9999提供项目中提取的开源代理工具配置文件"
       - title: github-unicorn
         link: "https://github.com/lwd-temp/github-unicorn"
         tagline: "GitHub独角兽错误页样本"
@@ -162,6 +151,9 @@ projects:
       - title: KizunaAI-Web
         link: "https://github.com/lwd-temp/KizunaAI-Web"
         tagline: "Fork，基于uni-app的绊爱主题日历，兼容H5"
+      - title: Warmatap
+        link: "https://github.com/lwd-temp/warmatap"
+        tagline: "Fork，Warma音源的Mikutap"
 
 
 publications:
