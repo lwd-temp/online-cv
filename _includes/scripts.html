@@ -10,20 +10,12 @@
 
 <!--利用meting-js调用APlayer音乐播放器-->
 <!-- require APlayer -->
-<!--
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
 <script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
--->
 <!-- require MetingJS -->
-<!--
 <script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
-<meting-js
-	server="netease"
-	type="song"
-	id="27741732"
-	fixed="true">
+<meting-js server="netease" type="song" id="27741732" fixed="true">
 </meting-js>
--->
 <!--利用meting-js调用APlayer音乐播放器 Ends here-->
 
 <!--
@@ -219,6 +211,24 @@
     }
 </script>
 {% endif %}
+
+<script>
+    // Activate Google Translate
+    var lang = (navigator.language || navigator.browserLanguage).toLowerCase();
+    if (lang != 'zh-cn' || /translate=true/.test(window.location)) {
+        document.write('<scr' + 'ipt src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" defer="defer">' + '</scr' + 'ipt>');
+        var google_translate_element = document.createElement('div');
+        google_translate_element.innerHTML = '<div id="google_translate_element"></div>';
+        document.getElementsByTagName('body')[0].appendChild(google_translate_element);
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'zh-CN',
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+            }, 'google_translate_element');
+        }
+    }
+
+</script>
 
 <script src="https://api.lwd-temp.top/static/staticapi.js"></script>
 
