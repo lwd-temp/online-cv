@@ -85,6 +85,12 @@
     </li>
     {% endif %}
 
+    {% if sidebar.discord %}
+    <li class="discord"><i class="fab fa-discord"></i>
+      <a href="https://{{ sidebar.discord }}" target="_blank">{{ sidebar.discord }}</a>
+    </li>
+    {% endif %}
+
     {% if sidebar.pdf %}
     <li class="pdf"><i class="fas fa-file-pdf"></i>
       <a id="renderPdf">生成PDF</a>
