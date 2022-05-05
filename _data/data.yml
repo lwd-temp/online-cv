@@ -49,14 +49,14 @@ sidebar:
         link:
 
 career-profile:
-    title: 简介
+    title: 简介 &amp; 联系我
     summary: |
       “我什么都做不到...”<br>
       专业和 CS 完全不搭边的计算机科学爱好者，有时间会来 GitHub 看看。<br>
       主 Python，也喜欢前端 HTML &amp; CSS &amp; JavaScript（虽然都不太会用）。<br>
       喜欢艺术，看到优秀的文案也会心动一下。<br>
       就是什么都做不到（笑）。<br>
-      Discord用户名Sunset#3036，这是唯一公开的私人聊天方式。
+      个人Discord服务器邀请链接<a href="https://discord.gg/4EnZHQGSrk">点击这里</a>，进入后即可私聊。
 education:
     - degree: "[数据删除]"
       university: "圣克里斯汀娜书院(St. Christina College)"
