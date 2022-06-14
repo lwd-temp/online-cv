@@ -90,72 +90,21 @@ projects:
       - title: 导航页
         link: "https://navi.lwd-temp.top"
         tagline: "基于BYR-Navi的自用导航页"
-      - title: about-lwd-temp
-        link: "https://github.com/lwd-temp/about-lwd-temp"
-        tagline: "关于这个账号和Repos你所需要了解的一切[科幻向][乱写的]"
-      - title: 'AutoRing.py'
-        link: "https://github.com/lwd-temp/AutoRing.py"
-        tagline: "自动化上下课放学铃播放和自动关机解决方案"
-      - title: 'in-memory-of-███'
-        link: 
-        tagline: "欲买桂花同载酒，只可惜故人，何日再见呢..."
       - title: maybe_not_the_last_letter
         link: "https://github.com/lwd-temp/maybe_not_the_last_letter"
         tagline: "《也许不是最后一封信》基于Ren'Py的互动小说游戏"
-      - title: maybe_not_the_last_letter_web
-        link: "https://gh.lwd-temp.top/maybe_not_the_last_letter_web/index.html"
-        tagline: "《也许不是最后一封信》基于Ren'Py的互动小说游戏 Web版"
-      - title: SetRoBootHwcToCN
-        link: "https://github.com/lwd-temp/SetRoBootHwcToCN"
-        tagline: "初学者的第一个Magisk模块：在system.prop中将ro.boot.hwc设为CN，也许可以解决一些奇怪的问题呢..."
       - title: deploy-code-server
         link: "https://github.com/lwd-temp/deploy-code-server"
         tagline: "deploy-code-server仓库的Fork版，修改配置文件倾向Python练习开发，可直接部署"
-      - title: online-cv
-        link: "https://github.com/lwd-temp/online-cv"
-        tagline: "online-cv的Fork版，您面前的这个页面的生成配置"
-      - title: DesktopMirror
-        link: "https://github.com/lwd-temp/DesktopMirror"
-        tagline: "自动复制当前用户桌面全部文件，功能实现全部基于Windows特性，虽然貌似只在Windows 11测试机上正常运行..."
-      - title: Fake-flash.cn
-        link: "https://github.com/lwd-temp/Fake-flash.cn"
-        tagline: "Fork flash.cn钓鱼页（中文+英文），修复使其勉强能用"
-      - title: IzaiahSun-Community.PowerToys.Run.Plugin.Everything
-        link: "https://github.com/lwd-temp/IzaiahSun-Community.PowerToys.Run.Plugin.Everything"
-        tagline: "Fork IzaiahSun的PowerToys搜索功能Everything集成插件的二进制文件分离，可直接放入PowerToys插件目录下使用，目前未获转载授权"
-      - title: work
-        link: "https://github.com/lwd-temp/work"
-        tagline: "报告、论文、学术项目代码，杂项会丢到这里"
-      - title: github-unicorn
-        link: "https://github.com/lwd-temp/github-unicorn"
-        tagline: "GitHub独角兽错误页样本"
-      - title: awesome-anti-addiction
-        link: "https://github.com/lwd-temp/awesome-anti-addiction"
-        tagline: "网游防沉迷方案汇总 一个awesome系列"
-      - title: awesome-anti-anti-addiction
-        link: "https://github.com/lwd-temp/awesome-anti-anti-addiction"
-        tagline: "反防沉迷解决方案汇总 一个awesome系列 是上面那个的反义库"
-      - title: chemistry-pig-story
-        link: "https://github.com/lwd-temp/chemistry-pig-story"
-        tagline: "元素周期表小猪与狼的故事"
       - title: afdian-sponsor-page-vercel
         link: "https://github.com/lwd-temp/afdian-sponsor-page-vercel"
         tagline: "afdian-sponsor-page的Fork版，修改使其适配Vercel部署"
-      - title: steam-store-checker
-        link: "https://github.com/lwd-temp/steam-store-checker"
-        tagline: "Steam 商店 store.steampowered.com 疑似 443 端口被干扰验证"
       - title: Easy-to-use-Steam-Store-Checker
         link: "https://github.com/lwd-temp/Easy-to-use-Steam-Store-Checker"
         tagline: "易于使用的Steam商店443端口干扰验证工具"
-      - title: kizuna-ai-calendar-api
-        link: "https://github.com/lwd-temp/kizuna-ai-calendar-api"
-        tagline: "Fork，绊爱日历项目后端Serverless API+OSS部署方案"
       - title: KizunaAI-Web
         link: "https://github.com/lwd-temp/KizunaAI-Web"
         tagline: "Fork，基于uni-app的绊爱主题日历，兼容H5"
-      - title: Warmatap
-        link: "https://github.com/lwd-temp/warmatap"
-        tagline: "Fork，Warma音源的Mikutap"
 
 
 publications:
