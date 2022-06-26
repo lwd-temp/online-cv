@@ -14,6 +14,7 @@ sidebar:
     # Sidebar links
     email: i@lwd-temp.top
     phone: ███████████
+    timezone: Asia/Shanghai Timezone
     citizenship:
     website: lwd-temp.top #do not add http://
     linkedin: 
@@ -125,41 +126,11 @@ skills:
       - name: Python
         level: 20%
 
-      - name: JavaScript
-        level: 5%
-
-      - name: HTML &amp; CSS
+      - name: Web
         level: 5%
 
       - name: Markdown
         level: 40%
-
-      - name: Photoshop
-        level: 10%
-
-      - name: Shell &amp; Batch
-        level: 5%
-
-      - name: GNU/Linux
-        level: 10%
-
-      - name: C/C++
-        level: 2%
-
-      - name: 自然语言
-        level: 50%
-
-      - name: 电子文档/表格/演示
-        level: 30%
-        
-      - name: Vocaloid
-        level: 5%
-
-      - name: MMD
-        level: 5%
-
-      - name: 视觉小说/Galgame制作
-        level: 10%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a><br><small class="copyright">© lwd-temp.top</small><br><a href="https://icp.gov.moe/?keyword=20211505" target="_blank">萌ICP备20211505号</a>
