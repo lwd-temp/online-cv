@@ -32,10 +32,10 @@ sidebar:
 
     languages:
       - idiom: 中文（普通话）
-        level: 本土使用者
+        level: 母语人士
 
-      - idiom: 英语
-        level: 初学者
+      - idiom: English
+        level: Beginner
 
     interests:
       - item: 代码
