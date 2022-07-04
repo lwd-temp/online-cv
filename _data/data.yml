@@ -9,7 +9,7 @@ sidebar:
     # Profile information
     name: "Sunset"
     tagline: "计算机科学爱好者"
-    avatar: https://cors.lwd-temp.top/?https://avatars.githubusercontent.com/u/26019675?v=4 #place a 100x100 picture inside /assets/images/ folder and provide the link of the file below
+    avatar: https://api.lwd-temp.top/api/getGitHubAvatar.php?username=lwd-temp #place a 100x100 picture inside /assets/images/ folder and provide the link of the file below
 
     # Sidebar links
     email: i@lwd-temp.top
