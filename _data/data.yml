@@ -14,7 +14,7 @@ sidebar:
     # Sidebar links
     email: i@lwd-temp.top
     phone: ███████████
-    timezone: Asia/Shanghai Timezone
+    timezone: UTC+8
     citizenship:
     website: lwd-temp.top #do not add http://
     linkedin: 
@@ -83,7 +83,7 @@ experiences:
 projects:
     title: 项目 &amp; 贡献
     intro: >
-      这里展示了我的一些无聊的项目以及我对其他项目的主要贡献。
+      <s>这里展示了我的一些无聊的项目以及我对其他项目的主要贡献。</s>随缘更新。
     assignments:
       - title: 博客
         link: "https://jekyll.lwd-temp.top"
@@ -91,21 +91,6 @@ projects:
       - title: 导航页
         link: "https://navi.lwd-temp.top"
         tagline: "基于BYR-Navi的自用导航页"
-      - title: maybe_not_the_last_letter
-        link: "https://github.com/lwd-temp/maybe_not_the_last_letter"
-        tagline: "《也许不是最后一封信》基于Ren'Py的互动小说游戏"
-      - title: deploy-code-server
-        link: "https://github.com/lwd-temp/deploy-code-server"
-        tagline: "deploy-code-server仓库的Fork版，修改配置文件倾向Python练习开发，可直接部署"
-      - title: afdian-sponsor-page-vercel
-        link: "https://github.com/lwd-temp/afdian-sponsor-page-vercel"
-        tagline: "afdian-sponsor-page的Fork版，修改使其适配Vercel部署"
-      - title: Easy-to-use-Steam-Store-Checker
-        link: "https://github.com/lwd-temp/Easy-to-use-Steam-Store-Checker"
-        tagline: "易于使用的Steam商店443端口干扰验证工具"
-      - title: KizunaAI-Web
-        link: "https://github.com/lwd-temp/KizunaAI-Web"
-        tagline: "Fork，基于uni-app的绊爱主题日历，兼容H5"
 
 
 publications:
