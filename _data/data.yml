@@ -28,7 +28,7 @@ sidebar:
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
     discord: 
-    key : keyserver.ubuntu.com/pks/lookup?op=get&amp;search=0xafce72de15a64a20f9e731bbc8d10d21fdcb405a
+    key : /key.html # path to your key.html file
     pdf: False
 
     languages:
