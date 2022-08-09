@@ -120,4 +120,4 @@ skills:
         level: 40%
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a><br><small class="copyright">© lwd-temp.top</small><br><a href="https://icp.gov.moe/?keyword=20211505" target="_blank">萌ICP备20211505号</a>
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a><br><small class="copyright">© lwd-temp.top</small><br><a href="https://icp.gov.moe/?keyword=20211505" target="_blank">萌ICP备20211505号</a> <a id="cdn-info" href="/cdn-cgi/trace">当前CDN节点：<span id="cdn-info-content">加载中</span></a>
