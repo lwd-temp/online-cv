@@ -16,6 +16,9 @@ if ($('.twitter').length > 0) {
     if (navigator.language.indexOf("zh-CN") >= 0 && new Date().getTimezoneOffset() == -480) {
         // hide twitter class
         $('.twitter').hide();
+    } else {
+        // show twitter class
+        $('.twitter').show();
     }
 }
 
