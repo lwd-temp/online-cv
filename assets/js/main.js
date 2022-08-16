@@ -1,25 +1,23 @@
-jQuery(document).ready(function($) {
-
+jQuery(document).ready(function ($) {
     $('.level-bar-inner').css('width', '0');
-    
-    $(window).on('load', function() {
-
-        $('.level-bar-inner').each(function() {
-        
+    $(window).on('load', function () {
+        $('.level-bar-inner').each(function () {
             var itemWidth = $(this).data('level');
-            
             $(this).animate({
                 width: itemWidth
             }, 800);
-            
         });
-
     });
-   
-    
-
 });
 
+// if class twitter exists
+if ($('.twitter').length > 0) {
+    // check if user is in PRC
+    if (navigator.language.indexOf("zh-CN") >= 0 && new Date().getTimezoneOffset() == -480) {
+        // hide twitter class
+        $('.twitter').hide();
+    }
+}
 
 //get cf cdn info
 function getCDNinfo() {
