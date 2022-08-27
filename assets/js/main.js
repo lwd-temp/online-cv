@@ -13,7 +13,7 @@ jQuery(document).ready(function ($) {
 // if class twitter exists
 if ($('.twitter').length > 0) {
     // check if user is in PRC
-    if (navigator.language.indexOf("zh-CN") >= 0 && new Date().getTimezoneOffset() == -480) {
+    if (navigator.language.indexOf("zh-CN") >= 0 && Intl.DateTimeFormat().resolvedOptions().timeZone == "Asia/Shanghai") {
         // hide twitter class
         $('.twitter').hide();
     } else {
