@@ -238,8 +238,30 @@
 <!--
 <script src="https://api.lwd-temp.top/static/staticapi.js"></script>
 -->
-
+{% if sidebar.tidiochat %}
 <script src="//code.tidio.co/0ukqgzqkpj1nrecogctd5l9odsffo3hz.js" async></script>
+<script>
+        (function () {
+            function onTidioChatApiReady() {
+                window.tidioChatApi.hide();
+                window.tidioChatApi.on("close", function () {
+                    window.tidioChatApi.hide();
+                });
+            }
+
+            if (window.tidioChatApi) {
+                window.tidioChatApi.on("ready", onTidioChatApiReady);
+            } else {
+                document.addEventListener("tidioChat-ready", onTidioChatApiReady);
+            }
+
+            document.querySelector(".chat-button").addEventListener("click", function () {
+                window.tidioChatApi.show();
+                window.tidioChatApi.open();
+            });
+        })();
+</script>
+{% endif %}
 
 {% if site.analytics %}
 {% include analytics.html %}

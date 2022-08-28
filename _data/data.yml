@@ -29,6 +29,7 @@ sidebar:
     goodreads: # Number-Username, e.g. 123456-alandoe
     discord: 
     key : /key.html # path to your key.html file
+    tidiochat : True
     pdf: False
 
     languages:
