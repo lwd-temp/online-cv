@@ -15,6 +15,20 @@ permalink: /chat
 <body>
     <p style="font-size: xxx-large;">↘</p>
     <script src="//code.tidio.co/0ukqgzqkpj1nrecogctd5l9odsffo3hz.js" async></script>
+    <script>
+        (function () {
+            function onTidioChatApiReady() {
+                (function () {
+                    window.tidioChatApi.open();
+                })();
+            }
+            if (window.tidioChatApi) {
+                window.tidioChatApi.on("ready", onTidioChatApiReady);
+            } else {
+                document.addEventListener("tidioChat-ready", onTidioChatApiReady);
+            }
+        })();
+    </script>
 </body>
 
 </html>
