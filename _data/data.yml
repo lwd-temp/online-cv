@@ -28,8 +28,8 @@ sidebar:
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
     discord: 
-    key : /key.html # path to your key.html file
-    tidiochat : True
+    key : key.html # path to your key.html file
+    tidiochat : chat.html
     pdf: False
 
     languages:
