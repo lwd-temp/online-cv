@@ -33,24 +33,28 @@ sidebar:
     pdf: False
 
     languages:
-      - idiom: 中文（普通话）
-        level: 母语人士
+      title: 语言
+      info:
+        - idiom: 中文（普通话）
+          level: 母语人士
 
-      - idiom: English
-        level: Beginner
+        - idiom: English
+          level: Beginner
 
     interests:
-      - item: 代码
-        link:
+      title: 兴趣
+      info:
+        - item: 代码
+          link:
 
-      - item: 探索
-        link:
+        - item: 探索
+          link:
 
-      - item: 搞事情
-        link:
+        - item: 搞事情
+          link:
 
-      - item: 屑（？）
-        link:
+        - item: 屑（？）
+          link:
 
 career-profile:
     title: 简介 &amp; 联系我
@@ -62,27 +66,31 @@ career-profile:
       喜欢艺术，看到优秀的文案也会心动一下。<br>
       就是什么都做不到（笑）。
 education:
-    - degree: "[数据删除]"
-      university: "圣克里斯汀娜书院(St. Christina College)"
-      time: 20██ - 20██
-      details: |
-        "[数据删除]"
-    - degree: 荣誉毕业生
-      university: "霍格沃茨魔法学校(Hogwarts School of Witchcraft and Wizardry)"
-      time: 20██ - 20██
-      details: |
-        "[数据删除]"
-    - degree: "[数据删除]"
-      university: "密斯卡托尼克大学(Miskatonic University)"
-      time: 20██ - 20██
-      details: |
-        "[数据删除]"
+    title: 教育
+    info:
+      - degree: "[数据删除]"
+        university: "圣克里斯汀娜书院(St. Christina College)"
+        time: 20██ - 20██
+        details: |
+          "[数据删除]"
+      - degree: 荣誉毕业生
+        university: "霍格沃茨魔法学校(Hogwarts School of Witchcraft and Wizardry)"
+        time: 20██ - 20██
+        details: |
+          "[数据删除]"
+      - degree: "[数据删除]"
+        university: "密斯卡托尼克大学(Miskatonic University)"
+        time: 20██ - 20██
+        details: |
+          "[数据删除]"
 experiences:
-    - role: 人类
-      time: ████ - 至今
-      company: 世界
-      details: |
-        没什么可说的。
+    title: 经历
+    info:
+      - role: 人类
+        time: ████ - 至今
+        company: 世界
+        details: |
+          没什么可说的。
 projects:
     title: 项目 &amp; 贡献
     intro: >
