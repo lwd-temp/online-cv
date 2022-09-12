@@ -98,19 +98,19 @@
     {% endif %}
 
     {% if sidebar.key %}
-    <li class="key remove-container container-block"><i class="fas fa-key"></i>
+    <li class="key hide-on-print"><i class="fas fa-key"></i>
       <a href="{{ sidebar.key }}" target="_blank">GPG公钥</a>
     </li>
     {% endif %}
 
     {% if sidebar.tidiochat %}
-    <li class="tidiochat remove-container container-block" id="tidiochatLink"><i class="fas fa-comment"></i>
+    <li class="tidiochat hide-on-print" id="tidiochatLink"><i class="fas fa-comment"></i>
       <a href="javascript:;" onclick="var tidioScript = document.createElement('script');tidioScript.src = '//code.tidio.co/0ukqgzqkpj1nrecogctd5l9odsffo3hz.js';document.body.appendChild(tidioScript);document.getElementById('tidiochatLink').remove();">打开聊天</a>
     </li>
     {% endif %}
 
     {% if sidebar.pdf %}
-    <li class="pdf remove-container container-block"><i class="fas fa-file-pdf"></i>
+    <li class="pdf hide-on-print"><i class="fas fa-file-pdf"></i>
       <a id="renderPdf">生成PDF</a>
     </li>
     {% endif %}
