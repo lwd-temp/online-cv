@@ -9,7 +9,7 @@ sidebar:
     # Profile information
     name: "Sunset"
     tagline: "计算机科学爱好者"
-    avatar: https://api.lwd-temp.top/api/getGitHubAvatar.php?username=lwd-temp #place a 100x100 picture inside /assets/images/ folder and provide the link of the file below
+    avatar: /assets/images/sunset_compressed.png #place a 100x100 picture inside /assets/images/ folder and provide the link of the file below
 
     # Sidebar links
     email: i@lwd-temp.top
@@ -127,6 +127,10 @@ skills:
 
       - name: Markdown
         level: 40%
+
+      - name: Shell
+        level: 3%
+
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a><br><small class="copyright">© lwd-temp.top</small><br><a href="https://icp.gov.moe/?keyword=20211505" target="_blank">萌ICP备20211505号</a> <a id="cdn-info" href="/cdn-cgi/trace">当前CDN节点：<span id="cdn-info-content">加载中</span></a>
