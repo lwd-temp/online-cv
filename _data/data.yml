@@ -61,9 +61,9 @@ career-profile:
     summary: |
       Main Programmer of Sunset Edu. & Tech. Group, 中文使用者/Also Speak English<br>
       “我什么都做不到...”<br>
-      专业和 CS 完全不搭边的计算机科学爱好者，有时间会来 GitHub 看看。<br>
-      主 Python，也喜欢前端 HTML &amp; CSS &amp; JavaScript（虽然都不太会用）。<br>
-      喜欢艺术，看到优秀的文案也会心动一下。<br>
+      专业和 CS 完全不搭边的计算机科学爱好者。<br>
+      主语言 Python，也使用其他语言（虽然都不太会用）。<br>
+      喜欢艺术和其他美好的事物。<br>
       就是什么都做不到（笑）。
 education:
     title: 教育
@@ -94,7 +94,7 @@ experiences:
 projects:
     title: 项目 &amp; 贡献
     intro: >
-      <s>这里展示了我的一些无聊的项目以及我对其他项目的主要贡献。</s>随缘更新。
+      随缘更新。
     assignments:
       - title: 博客
         link: "https://jekyll.lwd-temp.top"
@@ -129,7 +129,22 @@ skills:
         level: 40%
 
       - name: Shell
-        level: 3%
+        level: 2%
+
+      - name: C++
+        level: 1%
+
+      - name: C#
+        level: 1%
+
+      - name: JavaScript
+        level: 2%
+
+      - name: HTML
+        level: 5%
+
+      - name: CSS
+        level: 2%
 
 
 footer: >
