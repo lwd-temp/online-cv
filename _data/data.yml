@@ -102,7 +102,9 @@ projects:
       - title: 导航页
         link: "https://navi.lwd-temp.top"
         tagline: "基于BYR-Navi的自用导航页"
-
+      - title: "Eaglercraft Server"
+        link: "https://mc.lwd-temp.top/"
+        tagline: "Eaglercraft Server, But No Client Here"
 
 publications:
     title: 文献发表
