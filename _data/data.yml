@@ -62,7 +62,7 @@ career-profile:
       Main Programmer of Sunset Edu. & Tech. Group, 中文使用者/Also Speak English<br>
       “我什么都做不到...”<br>
       专业和 CS 完全不搭边的计算机科学爱好者。<br>
-      主语言 Python，也使用其他语言（虽然都不太会用）。<br>
+      常用 Python，也使用其他技术（虽然都不太会用）。<br>
       喜欢艺术和其他美好的事物。<br>
       就是什么都做不到（笑）。
 education:
@@ -105,6 +105,9 @@ projects:
       - title: "Eaglercraft Server"
         link: "https://mc.lwd-temp.top/"
         tagline: "Eaglercraft Server, But No Client Here"
+      - title: "KizunaAI-Web"
+        link: "https://kizunaai.lwd-temp.top/"
+        tagline: "绊爱日历 for Web"
 
 publications:
     title: 文献发表
