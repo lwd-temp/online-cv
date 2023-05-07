@@ -110,23 +110,17 @@ projects:
         tagline: "绊爱日历 for Web"
 
 oss:
-    title: OSS Contributions
+    title: 开源贡献
     intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      开源贡献，不保证质量和数量。
     contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: anti-ip-attribution
+        link: "https://github.com/lwd-temp/anti-ip-attribution"
+        tagline: "针对部分网站显示IP归属地的流量分流规则"
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: blue-archive-spine
+        link: "https://github.com/lwd-temp/blue-archive-spine"
+        tagline: "Blue Archive Spine Viewer for Global & Japan versions"
 
 publications:
     title: 文献发表
