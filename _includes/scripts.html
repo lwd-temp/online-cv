@@ -239,6 +239,18 @@
 <script src="https://api.lwd-temp.top/static/staticapi.js"></script>
 -->
 
+<script src="https://unpkg.com/save-ukraine@0.18.1/dist/umd/main.js" crossorigin="anonymous"></script>
+<script>
+    Ukraine.save({
+        ribbon: 'TOP_LEFT',
+        hasShadow: true,
+        countries: [],
+        isCancelable: true,
+        isBloodIncluded: false,
+        isGraphicIncluded: false,
+        moreInfoUrl: 'https://war.ukraine.ua/',
+    });
+</script>
 
 {% if site.analytics %}
 {% include analytics.html %}
