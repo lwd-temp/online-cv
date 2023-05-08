@@ -102,6 +102,9 @@ projects:
       - title: 导航页
         link: "https://navi.lwd-temp.top"
         tagline: "基于BYR-Navi的自用导航页"
+      - title: "KizunaAI-Web"
+        link: "https://kizunaai.lwd-temp.top/"
+        tagline: "绊爱日历 for Web"
       - title: "Eaglercraft Server"
         link: "https://mc.lwd-temp.top/"
         tagline: "Eaglercraft Server, But No Client Here"
@@ -124,7 +127,7 @@ oss:
         tagline: "Blue Archive Spine Viewer for Global & Japan versions"
 
       - title: "KizunaAI-Web"
-        link: "https://kizunaai.lwd-temp.top/"
+        link: "https://github.com/lwd-temp/KizunaAI-Web"
         tagline: "绊爱日历 for Web"
 
 publications:
