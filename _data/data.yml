@@ -92,7 +92,7 @@ experiences:
         details: |
           没什么可说的。
 projects:
-    title: 项目 &amp; 贡献
+    title: 项目
     intro: >
       随缘更新。
     assignments:
@@ -105,9 +105,10 @@ projects:
       - title: "Eaglercraft Server"
         link: "https://mc.lwd-temp.top/"
         tagline: "Eaglercraft Server, But No Client Here"
-      - title: "KizunaAI-Web"
-        link: "https://kizunaai.lwd-temp.top/"
-        tagline: "绊爱日历 for Web"
+      - title: "Blue Archive Resource Viewer"
+        link: "https://ba.lwd-temp.top/"
+        tagline: "https://github.com/lwd-temp/blue-archive-spine"
+
 
 oss:
     title: 开源贡献
@@ -121,6 +122,10 @@ oss:
       - title: blue-archive-spine
         link: "https://github.com/lwd-temp/blue-archive-spine"
         tagline: "Blue Archive Spine Viewer for Global & Japan versions"
+
+      - title: "KizunaAI-Web"
+        link: "https://kizunaai.lwd-temp.top/"
+        tagline: "绊爱日历 for Web"
 
 publications:
     title: 文献发表
