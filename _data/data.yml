@@ -94,7 +94,7 @@ experiences:
 projects:
     title: 项目
     intro: >
-      随缘更新。
+      （包括闭源项目）
     assignments:
       - title: 博客
         link: "https://jekyll.lwd-temp.top"
@@ -108,10 +108,24 @@ projects:
       - title: "Eaglercraft Server"
         link: "https://mc.lwd-temp.top/"
         tagline: "Eaglercraft Server, But No Client Here"
-      - title: "Blue Archive Resource Viewer"
+      - title: "《蔚蓝档案》国际服Spine动画播放器"
         link: "https://ba.lwd-temp.top/"
         tagline: "https://github.com/lwd-temp/blue-archive-spine"
-
+      - title: "测试性的gpt-3.5-turbo API演示页面"
+        link: "https://chat.lwd-temp.top/"
+        tagline: "https://github.com/Yidadaa/ChatGPT-Next-Web"
+      - title: "测试性的Bing Chat演示页面"
+        link: "https://sydney.lwd-temp.top/"
+        tagline: "https://github.com/adams549659584/go-proxy-bingai"
+      - title: "测试性的NewBingGoGo魔法链接"
+        link: "https://sydney.lwd-temp.gq/"
+        tagline: "https://gitee.com/jja8/NewBingGoGo"
+      - title: "Web Build of Teaching Feeling -傷肌少女との生活- v4 with Chinese Translation"
+        link: "#"
+        tagline: "由于版权保护的原因暂不公开"
+      - title: "一些手机游戏的逆向工程工具链"
+        link: "#"
+        tagline: "由于版权保护的原因暂不公开 +1"
 
 oss:
     title: 开源贡献
@@ -129,6 +143,35 @@ oss:
       - title: "KizunaAI-Web"
         link: "https://github.com/lwd-temp/KizunaAI-Web"
         tagline: "绊爱日历 for Web"
+
+      - title: "MSD-Manual-Portable"
+        link: "https://github.com/lwd-temp/MSD-Manual-Portable"
+        tagline: "一种构建便携式离线《默沙东诊疗手册》的方法"
+
+      - title: "Bilibili-Video-Reply-Crawler"
+        link: "https://github.com/lwd-temp/Bilibili-Video-Reply-Crawler"
+        tagline: "Python爬虫获取Bilibili视频/专栏评论"
+
+      - title: "sunset"
+        link: "https://github.com/lwd-temp/sunset"
+        tagline: "原创角色Sunset的设定和立绘"
+
+      - title: "afdian-sponsor-page"
+        link: "https://github.com/MisaLiu/afdian-sponsor-page/tree/vercel"
+        tagline: "一个独立展示爱发电赞助用户的网页，但在Vercel上部署"
+
+      - title: "teaching-feeling-web-3"
+        link: "https://github.com/lwd-temp/teaching-feeling-web-3"
+        tagline: "Web Build of Teaching Feeling -傷肌少女との生活- v3.0.19 with Chinese Translation"
+
+      - title: "bsod.py"
+        link: "https://github.com/lwd-temp/bsod.py"
+        tagline: "A Python script to generate a BSOD(Blue Screen of Death)"
+
+      - title: "visitorLogger"
+        link: "https://github.com/lwd-temp/visitorLogger"
+        tagline: "A simple visitor logger for the website"
+
 
 publications:
     title: 文献发表
