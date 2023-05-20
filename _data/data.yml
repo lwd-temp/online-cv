@@ -128,7 +128,7 @@ projects:
         tagline: "https://gitee.com/jja8/NewBingGoGo"
       - title: "Scratch 3.0 GUI"
         link: "https://scratch.lwd-temp.top/"
-        tagline: "https://gitee.com/jja8/NewBingGoGo"
+        tagline: "https://github.com/scratchfoundation/scratch-gui"
       - title: "在线中文输入法"
         link: "https://rime.lwd-temp.top/"
         tagline: "https://github.com/LibreService/my_rime"
