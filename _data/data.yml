@@ -175,10 +175,6 @@ oss:
         link: "https://github.com/MisaLiu/afdian-sponsor-page/tree/vercel"
         tagline: "一个独立展示爱发电赞助用户的网页，但在Vercel上部署"
 
-      - title: "teaching-feeling-web-3"
-        link: "https://github.com/lwd-temp/teaching-feeling-web-3"
-        tagline: "Web Build of Teaching Feeling -傷肌少女との生活- v3.0.19 with Chinese Translation"
-
       - title: "bsod.py"
         link: "https://github.com/lwd-temp/bsod.py"
         tagline: "A Python script to generate a BSOD(Blue Screen of Death)"
