@@ -135,12 +135,9 @@ projects:
       - title: "在线中文简繁转换"
         link: "https://opencc.lwd-temp.top/"
         tagline: "https://github.com/LibreService/my_opencc"
-      - title: "Web Build of Teaching Feeling -傷肌少女との生活- v4 with Chinese Translation"
-        link: "#"
-        tagline: "由于版权保护的原因暂不公开"
       - title: "一些手机游戏的逆向工程工具链"
         link: "#"
-        tagline: "由于版权保护的原因暂不公开 +1"
+        tagline: "由于版权保护的原因暂不公开"
 
 oss:
     title: 开源贡献
