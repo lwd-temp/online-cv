@@ -13,7 +13,7 @@ sidebar:
 
     # Sidebar links
     email: i@lwd-temp.top
-    phone: ███████████
+    phone: █████████████
     timezone: UTC+8
     citizenship:
     website: lwd-temp.top #do not add http://
@@ -70,17 +70,17 @@ education:
     info:
       - degree: "[数据删除]"
         university: "圣克里斯汀娜书院(St. Christina College)"
-        time: 20██ - 20██
+        time: ████ - ████
         details: |
           "[数据删除]"
       - degree: 荣誉毕业生
         university: "霍格沃茨魔法学校(Hogwarts School of Witchcraft and Wizardry)"
-        time: 20██ - 20██
+        time: ████ - ████
         details: |
           "[数据删除]"
       - degree: "[数据删除]"
         university: "密斯卡托尼克大学(Miskatonic University)"
-        time: 20██ - 20██
+        time: ████ - ████
         details: |
           "[数据删除]"
 experiences:
