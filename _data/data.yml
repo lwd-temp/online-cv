@@ -28,6 +28,7 @@ sidebar:
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
     discord: 
+    mastodon: https://mastodon.social/@sunsetmikoto
     key : key.html # path to your key.html file
     tidiochat : chat.html
     pdf: False
