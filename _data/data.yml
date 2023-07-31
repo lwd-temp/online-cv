@@ -30,7 +30,7 @@ sidebar:
     discord: 
     mastodon: https://mastodon.social/@sunsetmikoto
     key : key.html # path to your key.html file
-    tidiochat : chat.html
+    tidiochat : 
     pdf: False
 
     languages:
