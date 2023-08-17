@@ -14,7 +14,7 @@ sidebar:
     # Sidebar links
     email: i@lwd-temp.top
     phone: █████████████
-    timezone: UTC+8
+    timezone: 
     citizenship:
     website: lwd-temp.top #do not add http://
     linkedin: 
@@ -23,12 +23,12 @@ sidebar:
     telegram: # add your nickname without '@' sign
     gitlab: lwd-temp
     bitbucket:
-    twitter: Sunset16094839
+    twitter: 
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
     discord: 
-    mastodon: https://mastodon.social/@sunsetmikoto
+    mastodon: 
     key : key.html # path to your key.html file
     tidiochat : 
     pdf: False
@@ -97,77 +97,19 @@ projects:
     intro: >
       包括闭源项目和小范围使用的项目，以及现有开源项目的个人部署。
     assignments:
-      - title: 博客
-        link: "https://jekyll.lwd-temp.top"
-        tagline: "基于Jekyll的个人博客"
-      - title: 导航页
-        link: "https://navi.lwd-temp.top"
-        tagline: "基于BYR-Navi的自用导航页"
-      - title: "KizunaAI-Web"
-        link: "https://kizunaai.lwd-temp.top/"
-        tagline: "绊爱日历 for Web"
-      - title: "Eaglercraft Server"
-        link: "https://mc.lwd-temp.top/"
-        tagline: "Eaglercraft Server, But No Client Here"
-      - title: "《蔚蓝档案》国际服Spine动画播放器"
-        link: "https://ba.lwd-temp.top/"
-        tagline: "https://github.com/lwd-temp/blue-archive-spine"
-      - title: "一些手机游戏的逆向工程工具链"
+      - title: "0"
         link: "#"
-        tagline: "由于版权保护的原因暂不公开"
+        tagline: "0"
 
 oss:
     title: 开源贡献
     intro: >
       开源贡献，不保证质量和数量。
     contributions:
-      - title: anti-ip-attribution
-        link: "https://github.com/lwd-temp/anti-ip-attribution"
-        tagline: "针对部分网站显示IP归属地的流量分流规则"
+      - title: "0"
+        link: "#"
+        tagline: "0"
 
-      - title: blue-archive-spine
-        link: "https://github.com/lwd-temp/blue-archive-spine"
-        tagline: "Blue Archive Spine Viewer for Global & Japan versions"
-
-      - title: "KizunaAI-Web"
-        link: "https://github.com/lwd-temp/KizunaAI-Web"
-        tagline: "绊爱日历 for Web"
-
-      - title: "MSD-Manual-Portable"
-        link: "https://github.com/lwd-temp/MSD-Manual-Portable"
-        tagline: "一种构建便携式离线《默沙东诊疗手册》的方法"
-
-      - title: "Bilibili-Video-Reply-Crawler"
-        link: "https://github.com/lwd-temp/Bilibili-Video-Reply-Crawler"
-        tagline: "Python爬虫获取Bilibili视频/专栏评论"
-
-      - title: "sunset"
-        link: "https://github.com/lwd-temp/sunset"
-        tagline: "原创角色Sunset的设定和立绘"
-
-      - title: "afdian-sponsor-page"
-        link: "https://github.com/MisaLiu/afdian-sponsor-page/tree/vercel"
-        tagline: "一个独立展示爱发电赞助用户的网页，但在Vercel上部署"
-
-      - title: "bsod.py"
-        link: "https://github.com/lwd-temp/bsod.py"
-        tagline: "A Python script to generate a BSOD(Blue Screen of Death)"
-
-      - title: "visitorLogger"
-        link: "https://github.com/lwd-temp/visitorLogger"
-        tagline: "A simple visitor logger for the website"
-
-      - title: "httpbin-vercel"
-        link: "https://github.com/lwd-temp/httpbin-vercel"
-        tagline: "httpbin for Vercel, a fork of postmanlabs/httpbin"
-
-      - title: "Ikia"
-        link: "https://github.com/lwd-temp/Ikia"
-        tagline: "秋烟Ikia的资源站（不再维护）"
-
-      - title: "LGBTQIA-In-China"
-        link: "https://github.com/LGBT-CN/LGBTQIA-In-China"
-        tagline: "🏳️‍🌈 中国的性少数群体一直渴望着自由平等"
 
 publications:
     title: 文献发表
